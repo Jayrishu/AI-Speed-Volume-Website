@@ -1,0 +1,44 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 23px;
+    color: aqua;
+    margin: 0px;
+    width: 100%;
+}
+.note{
+    font-size: 15px;
+    color: red;
+}
+.div_volume{
+    float: left;
+}
+.div_speed{
+    float: right;
+}
+.div_volume_img, .div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#volume, #speed{
+    font-size: 20px;
+    color: blue;
+}
+.playbutton{
+    font-size: 25px;
+    color: purple;
+    width: 100px;
+    letter-spacing: 2px;
+}
+canvas{
+    border: 5px blue solid;
+    box-shadow: 5px 5px 5px 5px red;
+    animation-name: canani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes canani{
+    from{box-shadow:5px 5px 5px 5px red;}
+    to{box-shadow:5px 5px 5px 5px yellowgreen;}
+}
